@@ -44,7 +44,7 @@ export default function HeroSection() {
 
           {/* 📝 Headings */}
           <h1 className="text-5xl md:text-7xl font-black text-white tracking-tight mb-4 flex flex-col md:flex-row items-center md:items-baseline gap-2">
-            Qaave <span className="text-3xl md:text-5xl text-primary font-bold tracking-normal opacity-90">( ক্যাভ )</span>
+            Qaave <span className="text-3xl md:text-5xl text-primary font-bold tracking-normal opacity-90">( কেভ )</span>
           </h1>
           
           {/* 🌍 Subheading (English) */}
