@@ -31,10 +31,10 @@ export default function AboutQaave() {
         {/* ========================================== */}
         <div className="text-center mb-20 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000 ease-out">
           <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-4">
-            What is <span className="text-primary">Qaave</span>?
+            <span className="text-white">Qaave</span> কী?
           </h2>
           <p className="text-lg text-[#A7A7A7] max-w-3xl mx-auto">
-            Qaave is not just an app; it is the ultimate environment of study. We combine psychology, technology, and curated content to transform how students learn, practice, and conquer their exams.
+            Qaave শুধুই একটি অ্যাপ নয়; এটি পড়ালেখার একটি সম্পূর্ণ পরিবেশ। সাইকোলজি, প্রযুক্তি এবং মানসম্মত কন্টেন্টের সমন্বয়ে আমরা শিক্ষার্থীদের শেখার, অনুশীলন করার এবং পরীক্ষায় বিজয়ী হওয়ার পদ্ধতিকে পুরোপুরি বদলে দিচ্ছি।
           </p>
         </div>
 
@@ -43,59 +43,59 @@ export default function AboutQaave() {
         {/* ========================================== */}
         <div className="mb-24">
           <div className="flex items-center gap-4 mb-10 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700">
-            <h3 className="text-3xl font-bold text-white">Core Essentials</h3>
-            <span className="px-3 py-1 bg-[#1DB954]/10 text-[#1DB954] font-bold text-sm rounded-full border border-[#1DB954]/20">
-              Free Forever
+            <h3 className="text-3xl font-bold text-white">কোর ফিচারসমূহ</h3>
+            <span className="px-3 py-1 bg-transparent text-white font-bold text-sm rounded-full border border-[#282828]">
+              আজীবন ফ্রি
             </span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <FeatureCard 
               icon="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" 
-              title="Unbreakable App Blocker" 
-              desc="Set a timer and lock distracting apps. No bypasses, no resets until the timer hits zero." 
+              title="আনব্রেকেবল অ্যাপ ব্লকার" 
+              desc="টাইমার সেট করে মনোযোগ নষ্টকারী অ্যাপগুলো লক করে দাও। টাইমার শেষ না হওয়া পর্যন্ত কোনোভাবেই এটি আনলক করা যাবে না।" 
               delay="delay-[100ms]"
             />
             <FeatureCard 
               icon="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" 
-              title="Smart Study Timer" 
-              desc="Track subject-wise study sessions. Differentiate between self-study and online classes easily." 
+              title="স্মার্ট স্টাডি টাইমার" 
+              desc="বিষয়ভিত্তিক পড়াশোনার সময় ট্র্যাক করো। সেলফ-স্টাডি এবং অনলাইন ক্লাসের সময়কে সহজেই আলাদা করে হিসেব করো।" 
               delay="delay-[200ms]"
             />
             <FeatureCard 
               icon="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" 
-              title="National Leaderboard" 
-              desc="Compete nationwide. Daily and monthly rankings based on actual focused study time." 
+              title="ন্যাশনাল লিডারবোর্ড" 
+              desc="পুরো দেশের শিক্ষার্থীদের সাথে পাল্লা দাও। তোমার আসল পড়াশোনার সময়ের ওপর ভিত্তি করে দৈনিক এবং মাসিক র‍্যাংকিং।" 
               delay="delay-[300ms]"
             />
             <FeatureCard 
               icon="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" 
-              title="30-Day Analytics Log" 
-              desc="A complete history of your study habits. Know your peak days and times." 
+              title="৩০ দিনের অ্যানালিটিক্স" 
+              desc="তোমার পড়াশোনার সম্পূর্ণ হিস্ট্রি। কোন দিন এবং কোন সময়ে তুমি সবচেয়ে ভালো পড়াশোনা করো, তা বিস্তারিত জেনে নাও।" 
               delay="delay-[400ms]"
             />
             <FeatureCard 
               icon="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" 
-              title="Visual Syllabus Tracker" 
-              desc="Map your progress. See exactly which chapters are completed and what is left to conquer." 
+              title="ভিজ্যুয়াল সিলেবাস ট্র্যাকার" 
+              desc="তোমার প্রগ্রেস ট্র্যাকিং। কোন চ্যাপ্টারগুলো শেষ হয়েছে আর কতটা বাকি আছে, তার একদম ক্লিয়ার ধারণা পাও।" 
               delay="delay-[500ms]"
             />
             <FeatureCard 
               icon="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" 
-              title="Virtual Group Study" 
-              desc="Create study rooms with friends. See live updates when your peers turn on their study timers." 
+              title="ভার্চুয়াল গ্রুপ স্টাডি" 
+              desc="বন্ধুদের সাথে স্টাডি রুম তৈরি করো। যখন তোমার বন্ধুরা পড়তে বসবে এবং টাইমার চালু করবে, তখন লাইভ আপডেট দেখতে পাবে।" 
               delay="delay-[600ms]"
             />
             <FeatureCard 
               icon="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
-              title="Daily Routine Maker" 
-              desc="Plan your entire day effortlessly and stay on track with your personalized routine." 
+              title="ডেইলি রুটিন মেকার" 
+              desc="তোমার পুরো দিনের পরিকল্পনা খুব সহজেই তৈরি করো এবং নিজের কাস্টমাইজড রুটিন মেনে পড়াশোনায় ফোকাস ধরে রাখো।" 
               delay="delay-[700ms]"
             />
             <FeatureCard 
               icon="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" 
-              title="Personalized AI Tutor" 
-              desc="An AI that knows your strengths and weaknesses, providing custom answers and guidance." 
+              title="পারসোনালাইজড এআই টিউটর" 
+              desc="এমন একজন এআই টিউটর যে তোমার দুর্বলতা ও শক্তিমত্তা জানে, এবং সে অনুযায়ী তোমাকে গাইডলাইন ও প্রশ্নের উত্তর দেবে।" 
               delay="delay-[800ms]"
             />
           </div>
@@ -104,76 +104,71 @@ export default function AboutQaave() {
         {/* ========================================== */}
         {/* 👑 QAAVE PRO (PREMIUM ECOSYSTEM)           */}
         {/* ========================================== */}
-        <div className="mb-24 relative p-8 md:p-12 bg-[#181818] rounded-[2.5rem] border border-[#D4AF37]/20 shadow-[0_10px_40px_rgb(212,175,55,0.05)] overflow-hidden">
-          
-          {/* Decorative Premium Glow */}
-          <div className="absolute -top-32 -right-32 w-96 h-96 bg-[#D4AF37]/10 blur-[100px] rounded-full pointer-events-none"></div>
+        <div className="mb-24 relative p-8 md:p-12 bg-[#181818] rounded-[2.5rem] border border-[#282828] overflow-hidden">
 
           <div className="flex flex-col md:flex-row items-center gap-4 mb-12 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700">
             <div>
               <h3 className="text-3xl font-black text-white mb-2 flex items-center gap-3">
-                Qaave Elite <span className="px-3 py-1 bg-[#D4AF37]/10 text-[#D4AF37] font-bold text-sm rounded-full border border-[#D4AF37]/20">Premium Ecosystem</span>
+                Qaave Elite <span className="px-3 py-1 bg-transparent text-white font-bold text-sm rounded-full border border-[#282828]">প্রিমিয়াম ইকোসিস্টেম</span>
               </h3>
-              <p className="text-[#A7A7A7]">Unlocking the ultimate 6-pillar methodology for exam dominance.</p>
+              <p className="text-[#A7A7A7]">পরীক্ষায় আধিপত্য বিস্তারের জন্য ৬-পিলার মেথডলজি আনলক করো।</p>
             </div>
           </div>
 
           <div className="space-y-6 relative z-10">
             
             <PremiumCard 
-              title="1. Interactive Learn Module"
-              desc="No boring PDFs. Select a chapter and dive into a structured topic-by-topic breakdown. Understand concepts through real-life examples, followed by instant MCQ practice."
+              title="১. ইন্টারেক্টিভ লার্ন মডিউল"
+              desc="বোরিং পিডিএফের দিন শেষ। যেকোনো চ্যাপ্টার সিলেক্ট করে টপিকভিত্তিক বিস্তারিত লেসনে ঢুকে পড়ো। বাস্তব জীবনের উদাহরণের সাহায্যে কনসেপ্ট বোঝো এবং সাথে সাথেই এমসিকিউ প্র্যাকটিস করো।"
               icon="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
               delay="delay-[100ms]"
             />
 
             <PremiumCard 
-              title="2. Targeted Practice Arena"
-              desc="Choose between 'Unlimited Practice' to test your endurance, or 'Exam Materials' containing highly-analyzed MCQs per chapter that cover 80% of board questions."
+              title="২. টার্গেটেড প্র্যাকটিস এরিনা"
+              desc="নিজের ধৈর্য পরীক্ষার জন্য 'আনলিমিটেড প্র্যাকটিস' বেছে নাও অথবা বোর্ড পরীক্ষার ৮০% কভার করে এমন বাছাই করা এমসিকিউ সমৃদ্ধ 'এক্সাম ম্যাটেরিয়ালস' দিয়ে প্রস্তুতি নাও।"
               icon="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
               delay="delay-[200ms]"
             />
 
             <PremiumCard 
-              title="3. Customizable Mock Tests"
-              desc="Create your own battlefield. Take timed MCQ exams on a single chapter, or shuffle multiple chapters together to simulate the pressure of actual board exams."
+              title="৩. কাস্টমাইজড মডেল টেস্ট"
+              desc="নিজের পরীক্ষা নিজেই তৈরি করো। একটি মাত্র চ্যাপ্টারের ওপর টাইমড এমসিকিউ পরীক্ষা দাও অথবা বোর্ড পরীক্ষার আসল চাপ অনুভব করতে একাধিক চ্যাপ্টার মিলিয়ে পরীক্ষা দাও।"
               icon="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               delay="delay-[300ms]"
             />
 
             <PremiumCard 
-              title="4. Automated Live Exams"
-              desc="Every night at 10 PM, join the live arena: 25 MCQs in 20 minutes. Featuring special Mega Batches and Model Tests tailored for SSC candidates."
+              title="৪. অটোমেটেড লাইভ এক্সাম"
+              desc="প্রতিদিন রাত ১০টায় লাইভ এরিনায় যোগ দাও: ২০ মিনিটে ২৫টি এমসিকিউ। এসএসসি পরীক্ষার্থীদের জন্য থাকছে স্পেশাল মেগা ব্যাচ এবং মডেল টেস্টের সুবিধা।"
               icon="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               delay="delay-[400ms]"
             />
 
-            {/* 🔥 5. Question Bank (Now in the main list) */}
             <PremiumCard 
-              title="5. Ultimate Question Bank"
-              desc="Type-wise categorization of previous year board questions for laser-focused preparation. Stop wasting time on irrelevant or outdated topics."
+              title="৫. আল্টিমেট কোয়েশ্চেন ব্যাংক"
+              desc="বিগত বছরের বোর্ড প্রশ্নগুলোর টাইপ-ভিত্তিক বিশ্লেষণ। অপ্রয়োজনীয় এবং পুরনো টপিকে সময় নষ্ট না করে একদম সঠিক প্রস্তুতি নাও।"
               icon="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
               delay="delay-[500ms]"
             />
 
-            {/* 🔥 6. Suggestions (Now in the main list) */}
             <PremiumCard 
-              title="6. Data-Driven Suggestions"
-              desc="Highly probable MCQ, CQ, and SQ lists curated through deep test-paper analysis. We embrace the 80/20 rule—study less, achieve more."
+              title="৬. ডেটা-ড্রিভেন সাজেশন"
+              desc="টেস্ট পেপার গভীরভাবে বিশ্লেষণ করে তৈরি করা সম্ভাব্য এমসিকিউ, সিকিউ এবং এসকিউ লিস্ট। আমরা ৮০/২০ রুলে বিশ্বাস করি—পড়ো কম, অর্জন করো বেশি।"
               icon="M13 10V3L4 14h7v7l9-11h-7z"
               delay="delay-[600ms]"
             />
 
             {/* Elite Analytics Notice */}
-            <div className="mt-8 p-5 bg-primary/10 rounded-xl border border-primary/20 flex items-start gap-4 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-[700ms]">
-              <div className="p-2 bg-[#121212] rounded-lg text-primary mt-1 border border-primary/20">
+            <div className="mt-8 p-5 bg-[#181818] rounded-xl border border-[#282828] flex items-start gap-4 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-[700ms]">
+              <div className="p-2 bg-[#121212] rounded-lg text-white mt-1 border border-[#282828]">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
                 </svg>
               </div>
               <div>
-                <h4 className="text-sm font-bold text-primary">Advanced Analytics Unlocked</h4>
-                <p className="text-sm text-[#A7A7A7] mt-1">Premium upgrades your History Log to reveal deep analytics. Instantly identify your weakest subjects, track concept mastery, and optimize your study hours where it matters most.</p>
+                <h4 className="text-sm font-bold text-white">অ্যাডভান্সড অ্যানালিটিক্স আনলকড</h4>
+                <p className="text-sm text-[#A7A7A7] mt-1">প্রিমিয়াম আপগ্রেডের মাধ্যমে তুমি তোমার স্টাডি হিস্ট্রির গভীর বিশ্লেষণ দেখতে পারবে। সহজেই তোমার দুর্বল সাবজেক্টগুলো চিহ্নিত করো এবং পড়াশোনার সময়কে আরও কার্যকরভাবে কাজে লাগাও।</p>
               </div>
             </div>
 
@@ -184,28 +179,28 @@ export default function AboutQaave() {
         {/* 🧬 THE CORE PILLARS                        */}
         {/* ========================================== */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-8 bg-[#181818] rounded-[2rem] border border-[#282828] shadow-lg text-center reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-[100ms] hover:border-[#0EA5E9]/50 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(14,165,233,0.1)] transition-all">
-            <div className="w-16 h-16 mx-auto mb-6 bg-[#121212] border border-[#282828] text-[#0EA5E9] rounded-2xl flex items-center justify-center">
+          <div className="p-8 bg-[#181818] rounded-[2rem] border border-[#282828] text-center reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-[100ms] hover:-translate-y-2 transition-transform">
+            <div className="w-16 h-16 mx-auto mb-6 bg-[#121212] border border-[#282828] text-white rounded-2xl flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3">Gamification</h3>
+            <h3 className="text-2xl font-bold text-white mb-3">গেমিফিকেশন</h3>
             <p className="text-[#A7A7A7]">
-              Studying shouldn't feel like a chore. Qaave uses game mechanics, EXP, badges, and streaks to make learning highly addictive and rewarding.
+              পড়াশোনা আর বোরিং মনে হবে না। গেমের মতো এক্সপি (EXP), ব্যাজ এবং স্ট্রিকস দিয়ে আমরা পড়াশোনাকে করে তুলেছি মজাদার ও প্রতিযোগিতামূলক।
             </p>
           </div>
 
-          <div className="p-8 bg-[#181818] rounded-[2rem] border border-[#282828] shadow-lg text-center reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-[200ms] hover:border-primary/50 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(104,38,223,0.1)] transition-all">
-            <div className="w-16 h-16 mx-auto mb-6 bg-[#121212] border border-[#282828] text-primary rounded-2xl flex items-center justify-center">
+          <div className="p-8 bg-[#181818] rounded-[2rem] border border-[#282828] text-center reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-[200ms] hover:-translate-y-2 transition-transform">
+            <div className="w-16 h-16 mx-auto mb-6 bg-[#121212] border border-[#282828] text-white rounded-2xl flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3">Socialization</h3>
+            <h3 className="text-2xl font-bold text-white mb-3">সোশ্যালাইজেশন</h3>
             <p className="text-[#A7A7A7]">
-              Build your academic profile. Search for peers, follow top rankers, and build a competitive yet supportive network of high-achievers.
+              নিজের অ্যাকাডেমিক প্রোফাইল তৈরি করো। সমবয়সীদের সাথে যুক্ত হও, টপারদের ফলো করো এবং উচ্চাকাঙ্ক্ষী শিক্ষার্থীদের একটি নেটওয়ার্ক গড়ে তোলো।
             </p>
           </div>
         </div>
@@ -221,8 +216,8 @@ export default function AboutQaave() {
 
 function FeatureCard({ icon, title, desc, delay }: { icon: string, title: string, desc: string, delay: string }) {
   return (
-    <div className={`reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ${delay} p-6 bg-[#181818] border border-[#282828] rounded-2xl shadow-lg hover:shadow-primary/10 hover:border-primary/50 hover:-translate-y-1 transition-all group`}>
-      <div className="w-12 h-12 mb-4 bg-[#121212] border border-[#333333] text-primary rounded-xl flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:text-white transition-colors">
+    <div className={`reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ${delay} p-6 bg-[#181818] border border-[#282828] rounded-2xl hover:-translate-y-1 transition-transform`}>
+      <div className="w-12 h-12 mb-4 bg-[#121212] border border-[#333333] text-white rounded-xl flex items-center justify-center">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
           <path strokeLinecap="round" strokeLinejoin="round" d={icon} />
         </svg>
@@ -235,15 +230,15 @@ function FeatureCard({ icon, title, desc, delay }: { icon: string, title: string
 
 function PremiumCard({ title, desc, icon, delay }: { title: string, desc: string, icon: string, delay: string }) {
   return (
-    <div className={`reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ${delay} p-6 md:p-8 bg-[#121212] border border-[#282828] rounded-2xl hover:border-[#D4AF37]/50 hover:shadow-[0_6px_25px_rgba(212,175,55,0.08)] hover:-translate-y-1 transition-all group`}>
+    <div className={`reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ${delay} p-6 md:p-8 bg-[#121212] border border-[#282828] rounded-2xl hover:-translate-y-1 transition-transform`}>
       <div className="flex flex-col md:flex-row gap-6 items-start">
-        <div className="w-14 h-14 shrink-0 bg-[#181818] border border-[#333333] text-[#D4AF37] rounded-2xl flex items-center justify-center group-hover:bg-[#D4AF37]/10 transition-colors">
+        <div className="w-14 h-14 shrink-0 bg-[#181818] border border-[#333333] text-white rounded-2xl flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
             <path strokeLinecap="round" strokeLinejoin="round" d={icon} />
           </svg>
         </div>
         <div>
-          <h4 className="text-xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors">{title}</h4>
+          <h4 className="text-xl font-bold text-white mb-3">{title}</h4>
           <p className="text-[#A7A7A7] leading-relaxed">{desc}</p>
         </div>
       </div>

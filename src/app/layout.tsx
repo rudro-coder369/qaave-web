@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "Live Online Mcq Exam"
   ],
   icons: {
-    icon: "/icon.svg", // public ফোল্ডারে রাখা ফাইলের পাথ
+    icon: "/icon.ico", // public ফোল্ডারে রাখা ফাইলের পাথ
   },
 };
 

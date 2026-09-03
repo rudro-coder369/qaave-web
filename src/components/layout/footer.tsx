@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#121212] border-t border-[#282828] pt-16 pb-8">
+    <footer className="bg-[#121212] border-t border-[#282828] pt-16 pb-6">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* ========================================== */}
@@ -13,12 +13,13 @@ export default function Footer() {
           
           {/* 1. Brand & Contact Info (Takes up 2 columns on desktop) */}
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-6 group">
-              <div className="relative w-8 h-8 rounded-md overflow-hidden bg-[#181818] border border-[#282828] p-1">
+            <Link href="/" className="flex items-center gap-2 mb-6 group w-fit">
+              <div className="relative w-8 h-8 rounded-md overflow-hidden bg-transparent p-1">
                 <Image 
                   src="/assets/qaave_logo.svg" 
                   alt="Qaave Logo" 
                   fill
+                  sizes="32px"
                   className="object-contain p-1"
                 />
               </div>
@@ -27,17 +28,17 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-[#A7A7A7] leading-relaxed max-w-sm mb-6">
-              The ultimate environment of study. Empowering students across Bangladesh with technology, psychology, and curated education.
+              পড়াশোনার একটি সম্পূর্ণ পরিবেশ। প্রযুক্তি, সাইকোলজি এবং মানসম্মত শিক্ষার সমন্বয়ে সারা বাংলাদেশের শিক্ষার্থীদের এগিয়ে নেওয়ার এক অবিরাম প্রচেষ্টা।
             </p>
             
             <div className="space-y-2">
-              <a href="mailto:qaave.business@gmail.com" className="flex items-center gap-2 text-sm text-[#A7A7A7] hover:text-primary transition-colors">
+              <a href="mailto:qaave.business@gmail.com" className="flex items-center gap-2 text-sm text-[#A7A7A7] hover:text-primary transition-colors w-fit">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 qaave.business@gmail.com
               </a>
-              <a href="tel:+8801710647502" className="flex items-center gap-2 text-sm text-[#A7A7A7] hover:text-primary transition-colors">
+              <a href="tel:+8801710647502" className="flex items-center gap-2 text-sm text-[#A7A7A7] hover:text-primary transition-colors w-fit">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
@@ -48,7 +49,7 @@ export default function Footer() {
 
           {/* 2. Social Links */}
           <div>
-            <h4 className="font-bold text-white mb-6 uppercase tracking-wider text-sm">Connect With Us</h4>
+            <h4 className="font-bold text-white mb-6 uppercase tracking-wider text-sm">আমাদের সাথে যুক্ত থাকো</h4>
             <div className="grid grid-cols-2 gap-4">
               <a href="https://www.facebook.com/share/1HPHwyCQ8F/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[#A7A7A7] hover:text-primary transition-colors text-sm font-medium">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -93,49 +94,66 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* 3. Parent Company */}
+          {/* 3. Parent Company & Trade License */}
           <div>
-            <h4 className="font-bold text-white mb-6 uppercase tracking-wider text-sm">A Product By</h4>
+            <h4 className="font-bold text-white mb-6 uppercase tracking-wider text-sm">প্যারেন্ট কোম্পানি</h4>
             <a 
               href="https://exclamatory-web.netlify.app" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="group block p-4 bg-[#181818] border border-[#282828] rounded-2xl hover:border-primary/50 transition-all hover:-translate-y-1 shadow-lg"
+              className="group flex items-center gap-3 hover:-translate-y-1 transition-transform w-fit mb-8"
             >
-              <div className="flex items-center gap-3">
-                <div className="relative w-10 h-10 rounded-lg overflow-hidden bg-[#121212] border border-[#333333] flex items-center justify-center">
-                  <Image 
-                    src="/assets/exclamatory_logo.svg" 
-                    alt="Exclamatory Logo" 
-                    fill
-                    className="object-contain p-1"
-                  />
-                </div>
-                <div>
-                  <p className="text-xs text-[#A7A7A7] font-medium">Parent Company</p>
-                  <p className="text-sm font-bold text-white group-hover:text-primary transition-colors">Exclamatory</p>
-                </div>
+              <div className="relative w-8 h-8 flex items-center justify-center opacity-70 group-hover:opacity-100 transition-opacity">
+                <Image 
+                  src="/assets/exclamatory_logo.svg" 
+                  alt="Exclamatory Logo" 
+                  fill
+                  sizes="32px"
+                  className="object-contain"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-bold text-[#A7A7A7] group-hover:text-primary transition-colors">Exclamatory</p>
               </div>
             </a>
+
+            {/* Trade License (Moved to Top Section) */}
+            <h4 className="font-bold text-white mb-4 uppercase tracking-wider text-sm">লিগ্যাল</h4>
+            <div className="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-[#727272]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              <span className="text-xs font-bold text-[#A7A7A7] tracking-widest uppercase">
+                Trade License: no-006/2026-2027
+              </span>
+            </div>
           </div>
 
         </div>
 
         {/* ========================================== */}
-        {/* 📜 BOTTOM LEGAL SECTION                    */}
+        {/* 💳 PAYMENT PARTNER & COPYRIGHT             */}
         {/* ========================================== */}
-        <div className="border-t border-[#282828] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-[#727272]">
+        <div className="border-t border-[#282828] pt-10 flex flex-col items-center justify-center gap-8">
+          
+          {/* Big Payment Methods Section */}
+          <div className="flex flex-col items-center">
+            <h4 className="font-bold text-[#727272] mb-4 uppercase tracking-widest text-xs">পেমেন্ট পার্টনার</h4>
+            <div className="relative w-[280px] h-[40px] md:w-[400px] md:h-[50px] opacity-80 hover:opacity-100 transition-opacity">
+              <Image 
+                src="/payment.png" 
+                alt="Payment Methods" 
+                fill
+                sizes="(max-width: 768px) 280px, 400px"
+                className="object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Copyright Text (English) */}
+          <p className="text-sm text-[#727272] text-center w-full">
             &copy; {new Date().getFullYear()} Qaave. All rights reserved.
           </p>
-          <div className="flex items-center gap-2 px-4 py-2 bg-[#181818] border border-[#282828] rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-[#727272]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-            </svg>
-            <span className="text-xs font-bold text-[#A7A7A7] tracking-widest uppercase">
-              Trade License: no-006/2026-2027
-            </span>
-          </div>
         </div>
 
       </div>
