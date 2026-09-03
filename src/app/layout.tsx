@@ -11,7 +11,21 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Qaave | The environment of study",
-  description: "Download the official Qaave app. Your premium study environment.",
+  description: "Qaave is the ultimate study environment for students in Bangladesh. Features include a strict App Blocker, Study Timer, Leaderboard, Syllabus Tracker, Virtual Group Study, Daily Routine Maker, and Personalized AI. Upgrade to premium for interactive Learning, Unlimited Practice, Mock Tests, and daily automated Live Exams.",
+  keywords: [
+    "Qaave", 
+    "Study App Bangladesh", 
+    "App Blocker", 
+    "Study Timer", 
+    "Syllabus Tracker", 
+    "Group Study", 
+    "Personalized AI Tutor", 
+    "Mock Test", 
+    "Live Online Mcq Exam"
+  ],
+  icons: {
+    icon: "/icon.svg", // public ফোল্ডারে রাখা ফাইলের পাথ
+  },
 };
 
 export default function RootLayout({
