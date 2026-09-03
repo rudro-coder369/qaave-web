@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function HeroSection() {
   return (
     <section className="relative w-full bg-[#121212] overflow-hidden min-h-screen flex items-center justify-center pt-20 pb-32">
@@ -130,11 +128,13 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* 👇 UX FIX: Mobile Scroll Indicator */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center animate-bounce z-30 cursor-pointer opacity-70 hover:opacity-100 transition-opacity">
-        <span className="text-[10px] font-bold mb-1 tracking-widest uppercase text-[#A7A7A7]">Explore</span>
-        <div className="w-8 h-12 border-2 border-[#333] rounded-full flex justify-center pt-2">
-          <div className="w-1.5 h-3 bg-[#727272] rounded-full animate-pulse"></div>
+      {/* 👇 UX FIX: Perfectly Centered Mobile Scroll Indicator */}
+      <div className="absolute bottom-6 w-full flex justify-center z-30 pointer-events-none">
+        <div className="flex flex-col items-center justify-center animate-bounce cursor-pointer opacity-70 hover:opacity-100 transition-opacity pointer-events-auto">
+          <span className="text-[10px] font-bold mb-1 tracking-widest uppercase text-[#A7A7A7]">Explore</span>
+          <div className="w-8 h-12 border-2 border-[#333] rounded-full flex justify-center pt-2">
+            <div className="w-1.5 h-3 bg-[#727272] rounded-full animate-pulse"></div>
+          </div>
         </div>
       </div>
 

@@ -131,7 +131,7 @@ export default function Announcements() {
             পুরো বগুড়ার শিক্ষার্থীদের এক মিলনমেলা
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {["পুলিশ লাইন্স স্কুল এন্ড কলেজ", "বগুড়া জিলা স্কুল", "সরকারি বালিকা উচ্চ বিদ্যালয়", "ইয়াকুবিয়া বালিকা উচ্চ বিদ্যালয় ও কলেজ", "বিয়াম মডেল স্কুল এন্ড কলেজ", "আর্মড পুলিশ ব্যাটালিয়ন পাবলিক স্কুল অ্যান্ড কলেজ", "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ", "এবং আরও অনেক..."].map((school, i) => (
+            {["পুলিশ লাইন্স স্কুল এন্ড কলেজ", "বগুড়া জিলা স্কুল", "বগুড়া সরকারি বালিকা উচ্চ বিদ্যালয়", "ইয়াকুবিয়া বালিকা উচ্চ বিদ্যালয় ও কলেজ", "বিয়াম মডেল স্কুল এন্ড কলেজ", "আর্মড পুলিশ ব্যাটালিয়ন পাবলিক স্কুল অ্যান্ড কলেজ", "ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ", "এবং আরও অনেক..."].map((school, i) => (
               <span key={i} className="px-5 py-3 bg-[#121212] border border-[#282828] rounded-xl text-sm font-medium text-[#A7A7A7] hover:border-primary hover:text-white transition-colors cursor-default reveal-on-scroll opacity-0 translate-y-5 duration-500" style={{ transitionDelay: `${i * 50}ms` }}>
                 {school}
               </span>
