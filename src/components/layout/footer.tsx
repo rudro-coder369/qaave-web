@@ -36,7 +36,7 @@ export default function Footer() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                qaave.business@gmail.com
+                contact@qaave.com
               </a>
               <a href="tel:+8801710647502" className="flex items-center gap-2 text-sm text-[#A7A7A7] hover:text-primary transition-colors w-fit">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -96,7 +96,7 @@ export default function Footer() {
 
           {/* 3. Parent Company & Trade License */}
           <div>
-            <h4 className="font-bold text-white mb-6 uppercase tracking-wider text-sm">প্যারেন্ট কোম্পানি</h4>
+            <h4 className="font-bold text-white mb-6 uppercase tracking-wider text-sm">Qaave is a product of </h4>
             <a 
               href="https://exclamatory-web.netlify.app" 
               target="_blank" 
