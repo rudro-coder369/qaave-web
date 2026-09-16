@@ -2,6 +2,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import Announcements from "@/components/landing/Announcements";
 import AboutQaave from "@/components/landing/AboutQaave";
 import OurVision from "@/components/landing/OurVision";
+import AssociatePartners from "@/app/partners/AssociatePartners"; 
 
 export default function Home() {
   return (
@@ -15,7 +16,10 @@ export default function Home() {
       {/* 📚 3. About Qaave Section (Free & Premium Features) */}
       <AboutQaave />
 
-      {/* 👁️ 4. Our Vision Section (The Future of EdTech) */}
+      {/* 🤝 4. Associate Partners Section */}
+      <AssociatePartners />
+
+      {/* 👁️ 5. Our Vision Section (The Future of EdTech) */}
       <OurVision />
     </div>
   );
