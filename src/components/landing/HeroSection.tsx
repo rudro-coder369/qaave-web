@@ -27,7 +27,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center justify-between relative z-10 gap-16 lg:gap-8 w-full">
         
         {/* ========================================== */}
-        {/* 📝 LEFT SIDE: Content & Download CTA         */}
+        {/* 📝 LEFT SIDE: Content & CTA                  */}
         {/* ========================================== */}
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left z-20">
           
@@ -55,26 +55,27 @@ export default function HeroSection() {
             বাংলাদেশের প্রথম সম্পূর্ণ ডিজিটাল স্টাডি ইকোসিস্টেম। আমরাই প্রথম নিয়ে এসেছি স্মার্ট ই-নোটবুক, যেখানে থাকছে চ্যাপ্টারভিত্তিক গোছানো কন্টেন্ট। সাথে আছে ডেইলি লাইভ অনলাইন এমসিকিউ এক্সাম ব্যাচ এবং প্রোডাক্টিভিটি ট্র্যাকিং—সবকিছু এক প্ল্যাটফর্মে।
           </p>
 
-          {/* 🚀 Download Action Button */}
+          {/* 🚀 Campus Representative Action Button */}
           <a 
-            href="/downloads/qaave-app-release.apk" 
-            download
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfln7KVRBwgPXORw-KRF2uKj70RyWM75hESH7TXx6JP7oKnVA/viewform" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center gap-3 bg-primary hover:bg-[#521cb5] text-white text-lg font-bold py-4 px-8 rounded-xl transition-all shadow-[0_0_20px_rgb(104,38,223,0.3)] hover:shadow-[0_0_30px_rgb(104,38,223,0.5)] hover:-translate-y-1"
           >
+            {/* User Icon instead of Download Icon */}
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" height="24" viewBox="0 0 24 24" fill="none" 
               stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" 
-              className="transition-transform group-hover:translate-y-1"
+              className="transition-transform group-hover:scale-110"
             >
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-              <polyline points="7 10 12 15 17 10"/>
-              <line x1="12" x2="12" y1="15" y2="3"/>
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
             </svg>
-            অ্যাপ ডাউনলোড করো
+            Join as our Campus Representative
           </a>
           <p className="mt-5 text-sm text-[#727272]">
-            Available for Android (APK)
+            Become a part of the revolution
           </p>
         </div>
 
